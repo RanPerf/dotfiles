@@ -1,0 +1,61 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#666666"
+blue = "#3B8EEA"
+cyan = "#29B8DB"
+green = "#23D18B"
+magenta = "#D670D6"
+red = "#F14C4C"
+white = "#E5E5E5"
+yellow = "#F5F543"
+
+[colors.normal]
+black = "#4C4C4C"
+blue = "#3B8EEA"
+cyan = "#11A8CD"
+green = "#0DBC79"
+magenta = "#BC3FBC"
+red = "#FF3C3C"
+white = "#E5E5E5"
+yellow = "#E5E510"
+
+[colors.primary]
+background = "#2B303B"
+foreground = "#C0C5CE"
+
+[font]
+size = 20
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/zsh"
+args = ["-l", "-c", "tmux new-session"]
+
+[window]
+opacity = 1
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 230
+lines = 90
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
